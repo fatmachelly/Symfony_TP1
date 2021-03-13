@@ -16,33 +16,33 @@ class AdminController extends AbstractController
         $arrayAgence = [
             array(
                 'id'            =>  1,
-                'nom'           =>  'Jallouli',
-                'telagence'     =>  '58229794',
-                'adresseville'  =>  'Tunis-Hammamet'
+                'nom'           =>  'Agence 1',
+                'telagence'     =>  '71546264',
+                'adresseville'  =>  'Tunis'
             ),
             array(
                 'id'            =>  2,
-                'nom'           =>  'Achref',
-                'telagence'     =>  '58229794',
+                'nom'           =>  'Agence 2',
+                'telagence'     =>  '71546258',
                 'adresseville'  =>  'Tunis'
             )
         ];
         $arrayVoiture = [
             array(
                 'id'            =>  1,
-                'marque'        =>  'Porsche',
-                'couleur'       =>  'zarga',
-                'description'   =>  'Heyyyylaaaa',
+                'marque'        =>  'Fiat 500',
+                'couleur'       =>  'Rouge',
+                'description'   =>  'Voiture',
                 'nbrePLace'     =>  2,
-                'nomAgence'     => 'Jallouli'
+                'nomAgence'     => 'Agence 1'
             ),
             array(
                 'id'            =>  2,
-                'marque'        =>  'R5',
-                'couleur'       =>  'Rose',
-                'description'   =>  'Zmordaa',
+                'marque'        =>  'Golf 7',
+                'couleur'       =>  'Blanc',
+                'description'   =>  'Voiture',
                 'nbrePLace'     =>  2,
-                'nomAgence'     => 'Achref'
+                'nomAgence'     => 'Agence 2'
             )
         ];
         return $this->render('admin/index.html.twig', [
